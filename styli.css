@@ -32,8 +32,27 @@ body{
     position: relative; 
 }
 
-.container__imagem{
-    
-
+.container{
+  display: flex;
+  align-items: center;
 }
 
+.container___imagem{
+  padding: 1em;  
+}
+
+.lista-menu {
+  display: none;
+  position: absolute;
+  top: 100%;  
+width: 60vw;
+}
+
+.container___botao:checked .lista-menu{
+  display: block;
+}
+
+.lista-menu__titulo,
+.lista-menu__item{
+  padding: ;
+}
