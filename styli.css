@@ -1,4 +1,4 @@
-:root { 
+root { 
  --cor-de-fundo: #87CEFA;
 --azul: #87CEFA;
 --laranja: #EB9B00;
@@ -48,11 +48,29 @@ body{
 width: 60vw;
 }
 
-.container___botao:checked .lista-menu{
+.container___botao:checked ~.lista-menu{
   display: block;
 }
 
 .lista-menu__titulo,
 .lista-menu__item{
   padding: ;
+  background-color: var(--branco);
 }
+
+.lista-menu__titulo{
+  color: var(--laranja);
+  font-weight:700;
+}
+
+.lista-menu__item{
+  background: var(--azul-degrade);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   background-clip: text;
+   text-transform: uppercase;
+  }
+
+  .container___botao{
+    
+  }
